@@ -1,12 +1,15 @@
 # GitHub Pages導入方法
+
 ## 前提
 * GitHubアカウント作成済み
 * gitクライアントインストール済み
+
 ## 概要
 1. [Gitクライアント準備](#Gitクライアント準備)
 2. [リポジトリ作成及びコンテンツ追加](#リポジトリ作成及びコンテンツ追加)
 3. [サイト公開](#サイト公開)
 4. [サイトアクセス](#サイトアクセス)
+
 ## 1. Gitクライアント準備
 ### 1.1. GitHubに接続するための公開鍵・秘密鍵を作成する
 ```bash
@@ -74,6 +77,7 @@ $ git add -A
 $ git commit -m "Initial Commit"
 $ git push origin master
 ```
+
 ### 2.2. コンテンツとして、以下ファイルを作成する。
 ```text:index.md
 Hello. GitHub Pages.
