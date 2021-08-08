@@ -1,1 +1,1 @@
-[WinodwsでX Serverを導入する](linuxOnWindows/xserverOnWindows)
+[WinodwsでX Serverを導入する](note/xserverOnWindows)
