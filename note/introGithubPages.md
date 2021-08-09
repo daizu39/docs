@@ -15,9 +15,9 @@
 ```bash
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): ** /Users/<OSユーザ名>/.ssh/github_id_rsa[Enter] **
-Enter passphrase (empty for no passphrase):** <任意の文字列> **[Enter]
-Enter same passphrase again:** <任意の文字列> **[Enter]
+Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): **/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]**
+Enter passphrase (empty for no passphrase): **<任意の文字列>[Enter]**
+Enter same passphrase again: **<任意の文字列>[Enter]**
 Your identification has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.
 Your public key has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.pub.
 The key fingerprint is:
@@ -37,7 +37,8 @@ The key's randomart image is:
 ```
 
 ### 1.2. GitHubにアクセスするためのssh設定をする。
-```text:~/.ssh/config
+「~/.ssh/config」のファイルを以下に設定する。
+```text
 Host github.com
   HostName github.com
   IdentityFile ~/.ssh/github_id_rsa
