@@ -80,8 +80,12 @@ $ git commit -m "Initial Commit"
 $ git push origin master
 ```
 
-### 2.2. コンテンツとして、以下ファイルを作成する。
-```text:index.md
+### 2.2. コンテンツとして、ファイルを作成する。
+```
+$ vim index.md
+```
+「index.md」の内容は以下の通り。
+```text
 Hello. GitHub Pages.
 ```
 
