@@ -1,4 +1,4 @@
 title: daizu39's メモ集積所
-markdown: redcarpet
+markdown: kramdown
 kramdown:
   coderay_line_numbers: true
