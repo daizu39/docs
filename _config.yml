@@ -1,3 +1,7 @@
 title: daizu39's メモ集積所
 markdown: kramdown
   input: GFM
+  coderay_line_numbers: true
+  footnote_nr: 1
+  html_to_native: true
+  syntax_highlighter: rouge

@@ -100,7 +100,7 @@ $ git push origin master
 ```
 
 ## 3. サイト公開
-. GitHubにログインし、以下サイトにアクセス。  
+GitHubにログインし、以下サイトにアクセス。  
 https://github.com/<ユーザ名>/<リポジトリ名>
 
 「サイト上部のタブ[Setting]> メニュー[Pages]」に移動し、「GitHub Pages」の項目を設定する。
