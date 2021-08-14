@@ -4,5 +4,7 @@ kramdown:
   auto_ids: true
   input: GFM
   coderay_line_numbers: true
+  syntax_highlighter_opts:
+    line_numbers: true
   html_to_native: true
   syntax_highlighter: rouge
