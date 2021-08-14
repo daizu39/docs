@@ -1,12 +1,13 @@
-title: daizu39's メモ集積所
+title:    daizu39's メモ集積所
 markdown: kramdown
 kramdown:
-  auto_ids: true
-  input: GFM
+  auto_ids:             true
+  input:                GFM
+  enable_coderay:       false
   coderay_line_numbers: true
   syntax_highlighter_opts:
     line_numbers: true
-  html_to_native: true
+  html_to_native:     true
   syntax_highlighter: rouge
   coderay:
     coderay_line_numbers: inline
