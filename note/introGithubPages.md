@@ -2,7 +2,8 @@
 
 ## 前提
 * GitHubアカウント作成済み
-* gitクライアントインストール済み
+* gitクライアントインストール済み[^1]
+[^1]: aaa
 
 ## 概要
 1. [Gitクライアント準備](#1-gitクライアント準備)
@@ -10,17 +11,14 @@
 3. [サイト公開](#3-サイト公開)
 4. [サイトアクセス](#4-サイトアクセス)
 
-abc[^1]
-[^1]: test
-
 ## 1. Gitクライアント準備
 ### 1.1. GitHubに接続するための公開鍵・秘密鍵を作成する
 ```console
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): <strong>/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]</strong>
-Enter passphrase (empty for no passphrase): **<任意の文字列>[Enter]**
-Enter same passphrase again: **<任意の文字列>[Enter]**
+Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): /Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]
+Enter passphrase (empty for no passphrase): <任意の文字列>[Enter]
+Enter same passphrase again: <任意の文字列>[Enter]
 Your identification has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.
 Your public key has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.pub.
 The key fingerprint is:
