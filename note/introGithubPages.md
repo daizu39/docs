@@ -12,7 +12,7 @@
 
 ## 1. Gitクライアント準備
 ### 1.1. GitHubに接続するための公開鍵・秘密鍵を作成する
-```shellsession
+```console
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): <strong>/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]</strong>
