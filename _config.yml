@@ -1,5 +1,6 @@
 title: daizu39's メモ集積所
 markdown: kramdown
+kramdown:
   input: GFM
   coderay_line_numbers: true
   footnote_nr: 1
