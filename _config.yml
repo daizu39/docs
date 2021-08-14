@@ -4,11 +4,11 @@ kramdown:
   auto_ids:             true
   input:                GFM
   enable_coderay:       false
-  coderay_line_numbers: true
+  # coderay_line_numbers: true
   syntax_highlighter_opts:
     line_numbers: true
   html_to_native:     true
   syntax_highlighter: rouge
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
+  # coderay:
+    # coderay_wrap: div
+    # coderay_line_numbers: inline
