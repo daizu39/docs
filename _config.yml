@@ -8,3 +8,5 @@ kramdown:
     line_numbers: true
   html_to_native: true
   syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers: inline
