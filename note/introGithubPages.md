@@ -12,10 +12,10 @@
 
 ## 1. Gitクライアント準備
 ### 1.1. GitHubに接続するための公開鍵・秘密鍵を作成する
-```bash
+```shellsession
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): **/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]**
+Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): <strong>/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]</strong>
 Enter passphrase (empty for no passphrase): **<任意の文字列>[Enter]**
 Enter same passphrase again: **<任意の文字列>[Enter]**
 Your identification has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.
@@ -47,7 +47,7 @@ Host github.com
 
 ### 1.3. 適宜、Gitクライアントの設定をする
 以下はおすすめ設定。
-```bash
+```shellsession
 $ git config --global user.email <メールアドレス>
 $ git config --global core.autocrlf false
 $ git config --global core.quotepath false
@@ -69,7 +69,7 @@ https://github.com/settings/keys
 
 ## 2. リポジトリ作成及びコンテンツ追加
 ### 2.1. リポジトリ作成
-```bash
+```shellsession
 $ mkdir <リポジトリ名>
 $ git init <リポジトリ名>
 $ cd <リポジトリ名>
@@ -81,7 +81,7 @@ $ git push origin master
 ```
 
 ### 2.2. コンテンツとして、ファイルを作成する。
-```
+```shellsession
 $ vim index.md
 ```
 「index.md」の内容は以下の通り。
@@ -90,7 +90,7 @@ Hello. GitHub Pages.
 ```
 
 ### 2.3. GitHubにコンテンツを追加する。
-```bash
+```shellsession
 $ git add -A
 $ git commit -m "Commit initial contents"
 $ git push origin master
