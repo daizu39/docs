@@ -61,7 +61,7 @@ $ git config --global init.defaultBranch master
 
 ### 1.4. GitHubに公開鍵を設定する。
 GitHubにログインし、以下サイトにアクセスする。  
-https://github.com/settings/keys
+<https://github.com/settings/keys>
 
 「New SSH key」をクリックし、以下パラメータに値を設定する。
 
@@ -109,4 +109,4 @@ https://github.com/<ユーザ名>/<リポジトリ名>
 ブラウザで以下URLにアクセス。  
 https://<ユーザ名>.github.io/<リポジトリ名>
 
-### 注釈
+---
