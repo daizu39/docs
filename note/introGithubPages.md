@@ -47,7 +47,7 @@ Host github.com
 
 ### 1.3. 適宜、Gitクライアントの設定をする
 以下はおすすめ設定。
-```shellsession
+```console
 $ git config --global user.email <メールアドレス>
 $ git config --global core.autocrlf false
 $ git config --global core.quotepath false
@@ -69,7 +69,7 @@ https://github.com/settings/keys
 
 ## 2. リポジトリ作成及びコンテンツ追加
 ### 2.1. リポジトリ作成
-```shellsession
+```console
 $ mkdir <リポジトリ名>
 $ git init <リポジトリ名>
 $ cd <リポジトリ名>
@@ -81,7 +81,7 @@ $ git push origin master
 ```
 
 ### 2.2. コンテンツとして、ファイルを作成する。
-```shellsession
+```console
 $ vim index.md
 ```
 「index.md」の内容は以下の通り。
@@ -90,7 +90,7 @@ Hello. GitHub Pages.
 ```
 
 ### 2.3. GitHubにコンテンツを追加する。
-```shellsession
+```console
 $ git add -A
 $ git commit -m "Commit initial contents"
 $ git push origin master
