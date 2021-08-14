@@ -10,4 +10,5 @@ kramdown:
   html_to_native:     true
   syntax_highlighter: rouge
   coderay:
+    coderay_wrap: div
     coderay_line_numbers: inline
