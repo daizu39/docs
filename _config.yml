@@ -1,7 +1,8 @@
 title: daizu39's メモ集積所
 markdown: kramdown
 kramdown:
-  input: kramdown
+  auto_ids: true
+  input: GFM
   coderay_line_numbers: true
   html_to_native: true
   syntax_highlighter: rouge
