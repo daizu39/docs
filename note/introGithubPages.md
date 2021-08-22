@@ -49,6 +49,7 @@ Host github.com
 ### 1.3. 適宜、Gitクライアントの設定をする
 以下はおすすめ設定。
 ```console
+$ git config --global user.email <コミットに利用するユーザ名>
 $ git config --global user.email <メールアドレス>
 $ git config --global core.autocrlf false
 $ git config --global core.quotepath false
