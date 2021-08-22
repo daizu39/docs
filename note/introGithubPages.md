@@ -73,7 +73,7 @@ GitHubにログインし、以下サイトにアクセスする。
 $ mkdir <リポジトリ名>
 $ git init <リポジトリ名>
 $ cd <リポジトリ名>
-$ git remote add origin https://github.com/<GitHubアカウント名>/<リポジトリ名>.git
+$ git remote add origin ssh://github.com/<GitHubアカウント名>/<リポジトリ名>.git
 $ vim .gitignore
 $ git add -A
 $ git commit -m "Initial Commit"
