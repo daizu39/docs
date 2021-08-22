@@ -8,3 +8,4 @@ kramdown:
   syntax_highlighter: rouge
   coderay:
     coderay_wrap: div
+
