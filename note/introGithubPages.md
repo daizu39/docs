@@ -13,12 +13,12 @@
 
 ## 1. Gitクライアント準備
 ### 1.1. GitHubに接続するための公開鍵・秘密鍵を作成する
-```bash
+```console
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): **/Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]**
-Enter passphrase (empty for no passphrase): **<任意の文字列>[Enter]**
-Enter same passphrase again: **<任意の文字列>[Enter]**
+Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): /Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]
+Enter passphrase (empty for no passphrase): <任意の文字列>[Enter]
+Enter same passphrase again: <任意の文字列>[Enter]
 Your identification has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.
 Your public key has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.pub.
 The key fingerprint is:
@@ -48,7 +48,7 @@ Host github.com
 
 ### 1.3. 適宜、Gitクライアントの設定をする
 以下はおすすめ設定。
-```bash
+```console
 $ git config --global user.email <メールアドレス>
 $ git config --global core.autocrlf false
 $ git config --global core.quotepath false
@@ -59,7 +59,7 @@ $ git config --global init.defaultBranch master
 
 ### 1.4. GitHubに公開鍵を設定する。
 GitHubにログインし、以下サイトにアクセスする。  
-https://github.com/settings/keys
+<https://github.com/settings/keys>
 
 「New SSH key」をクリックし、以下パラメータに値を設定する。
 
@@ -70,7 +70,7 @@ https://github.com/settings/keys
 
 ## 2. リポジトリ作成及びコンテンツ追加
 ### 2.1. リポジトリ作成
-```bash
+```console
 $ mkdir <リポジトリ名>
 $ git init <リポジトリ名>
 $ cd <リポジトリ名>
@@ -82,7 +82,7 @@ $ git push origin master
 ```
 
 ### 2.2. コンテンツとして、ファイルを作成する。
-```
+```console
 $ vim index.md
 ```
 「index.md」の内容は以下の通り。
@@ -91,14 +91,14 @@ Hello. GitHub Pages.
 ```
 
 ### 2.3. GitHubにコンテンツを追加する。
-```bash
+```console
 $ git add -A
 $ git commit -m "Commit initial contents"
 $ git push origin master
 ```
 
 ## 3. サイト公開
-. GitHubにログインし、以下サイトにアクセス。  
+GitHubにログインし、以下サイトにアクセス。  
 https://github.com/<ユーザ名>/<リポジトリ名>
 
 「サイト上部のタブ[Setting]> メニュー[Pages]」に移動し、「GitHub Pages」の項目を設定する。
@@ -107,3 +107,4 @@ https://github.com/<ユーザ名>/<リポジトリ名>
 ブラウザで以下URLにアクセス。  
 https://<ユーザ名>.github.io/<リポジトリ名>
 
+---

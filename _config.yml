@@ -1,4 +1,8 @@
-title: daizu39's メモ集積所
+title:    daizu39's メモ集積所
 markdown: kramdown
 kramdown:
-  coderay_line_numbers: true
+  auto_ids:             true
+  input:                GFM
+  syntax_highlighter_opts:
+    line_numbers: true
+  syntax_highlighter: rouge
