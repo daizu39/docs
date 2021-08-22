@@ -3,6 +3,7 @@
 ## 前提
 * GitHubアカウント作成済み
 * gitクライアントインストール済み
+* githubクライアント(ghコマンド)インストール済み
 
 ## 概要
 1. [Gitクライアント準備](#1-gitクライアント準備)
@@ -73,7 +74,7 @@ https://github.com/settings/keys
 $ mkdir <リポジトリ名>
 $ git init <リポジトリ名>
 $ cd <リポジトリ名>
-$ git remote add origin https://github.com/<GitHubアカウント名>/<リポジトリ名>.git
+$ git remote add origin git@github.com:<GitHubアカウント名>/<リポジトリ名>.git
 $ vim .gitignore
 $ git add -A
 $ git commit -m "Initial Commit"
