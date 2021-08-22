@@ -69,19 +69,32 @@ GitHubにログインし、以下サイトにアクセスする。
 | Key         | ssh-keygenで生成された「~/.ssh/github_id_rsa.pub」の内容 |
 
 ## 2. リポジトリ作成及びコンテンツ追加
-### 2.1. リポジトリ作成
+### 2.1. ローカルリポジトリ作成
 ```console
 $ mkdir <リポジトリ名>
-$ git init <リポジトリ名>
 $ cd <リポジトリ名>
-$ git remote add origin git@github.com:<GitHubアカウント名>/<リポジトリ名>.git
+$ git init
 $ vim .gitignore
 $ git add -A
 $ git commit -m "Initial Commit"
+```
+
+### 2.2. リモートリポジトリ作成
+ローカルリポジトリに移動していることを前提とする。
+以下のコマンドは、対話型である。適宜入力する。
+リモートリポジトリ(origin)は、後で設定するため設定しない。
+```console
+$ gh auth login
+$ gh repo create
+```
+
+### 2.3. ローカルリポジトリからリモートリポジトリにプッシュ
+```console
+$ git remote add origin git@github.com:<GitHubアカウント名>/<リポジトリ名>.git
 $ git push origin master
 ```
 
-### 2.2. コンテンツとして、ファイルを作成する。
+### 2.4. コンテンツとして、ファイルを作成する。
 ```console
 $ vim index.md
 ```
@@ -90,7 +103,7 @@ $ vim index.md
 Hello. GitHub Pages.
 ```
 
-### 2.3. GitHubにコンテンツを追加する。
+### 2.5. GitHubにコンテンツを追加する。
 ```console
 $ git add -A
 $ git commit -m "Commit initial contents"
