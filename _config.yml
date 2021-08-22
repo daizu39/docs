@@ -6,3 +6,5 @@ kramdown:
   syntax_highlighter_opts:
     line_numbers: true
   syntax_highlighter: rouge
+  coderay:
+    coderay_wrap: div
