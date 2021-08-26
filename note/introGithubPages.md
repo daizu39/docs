@@ -89,12 +89,6 @@ $ gh auth login
 $ gh repo create
 ```
 
-### 2.3. ローカルリポジトリからリモートリポジトリにプッシュ
-```console
-$ git remote add origin git@github.com:<GitHubアカウント名>/<リポジトリ名>.git
-$ git push origin master
-```
-
 ### 2.4. コンテンツとして、ファイルを作成する。
 ```console
 $ vim index.md
@@ -108,7 +102,7 @@ Hello. GitHub Pages.
 ```console
 $ git add -A
 $ git commit -m "Commit initial contents"
-$ git push origin master
+$ git push --set-upstream origin master
 ```
 
 ## 3. サイト公開
