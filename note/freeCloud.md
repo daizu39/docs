@@ -7,16 +7,18 @@ Azure Functions, Azure App Service辺りが使いやすい。
 VMの無料分はない。
 
 ## Google Cloud Platform (GCP)
+
 ちょこちょこ色々ある。
 
 ## Oracle Cloud Infrastructure (OCI)
+
 どのサービスも使いやすそう。
 VM, DB, VPN, Load Balancing, Storageなど色々ある。
 
 * VM
 
 Name                   | OCPU | Memory(GB) | Local Disk         | Max Network Band | Max VNIC | 対応OS                                                   | 備考
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------|------|------------|--------------------|------------------|----------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------
 VM.Standard.E2.1.Micro | 1    | 1          | Only Block Storage | 1                | 480Mbps  | 1                                                        | Oracle Linux Cloud Developer 8<br>Oracle Linux<br>Oracle Autonomous Linux<br>Ubuntu<br>Cent OS | CPU: AMD EPYC 7551<br>2台分
 VM.Standard.A1.Flex    | 4    | 24         | -                  | -                | -        | Oracle Linux Cloud Developer 8<br>Oracle Linux<br>Ubuntu | CPU: Arm<br>3,000CPU時間/月, 18,000GB/月
 
