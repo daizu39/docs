@@ -12,17 +12,3 @@
 [WinodwsでX Serverを導入する](./note/xserverOnWindows)
 
 [Linuxにおけるグループの基本](./note/linuxGroup)
-
-[システム以外のグループ追加](./note/linuxGroup)
-
-[System用グループ追加](./note/linuxGroup)
-
-[gid変更](./note/linuxGroup)
-
-[groupの削除](./note/linuxGroup)
-
-[グループ追加](./note/linuxGroup)
-
-[グループ変更](./note/linuxGroup)
-
-[ログインshellの再起動+ログイン](./note/linuxGroup)
