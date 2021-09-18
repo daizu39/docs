@@ -16,7 +16,7 @@
 ```console
 $ ssh-keygen -b 4096 -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/<OSユーザ名>/.ssh/id_rsa): /Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]
+Enter file in which to save the key (/home/<OSユーザ名>/.ssh/id_rsa): /Users/<OSユーザ名>/.ssh/github_id_rsa[Enter]
 Enter passphrase (empty for no passphrase): <任意の文字列>[Enter]
 Enter same passphrase again: <任意の文字列>[Enter]
 Your identification has been saved in /Users/<OSユーザ名>/.ssh/github_id_rsa.
