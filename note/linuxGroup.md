@@ -74,9 +74,3 @@ sudo usermod -aG groupname username
 sudo usermod -G username,adm,cdrom,sudo,dip,plugdev,lxd username
 ```
 
-## ログインしているユーザのグループ再読み込み
-
-```bash
-# ログインshellの再起動+ログイン
-exec $SHELL -l
-```
