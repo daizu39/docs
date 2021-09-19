@@ -1,14 +1,14 @@
 
-[Gitの参考ページ](./note/refGit)
+[Linuxにおけるグループの基本](note/linuxGroup)
 
-[VIM Default Package Manager](./note/vimPackManage)
+[GitHub Pages導入方法](note/introGithubPages)
 
-[無料で利用可能なクラウドサービスを探す](./note/freeCloud)
+[無料で利用可能なクラウドサービスを探す](note/freeCloud)
 
-[Dockerを利用した開発環境](./note/dockerDev)
+[VIM Default Package Manager](note/vimPackManage)
 
-[GitHub Pages導入方法](./note/introGithubPages)
+[Dockerを利用した開発環境](note/dockerDev)
 
-[WinodwsでX Serverを導入する](./note/xserverOnWindows)
+[Gitの参考ページ](note/refGit)
 
-[Linuxにおけるグループの基本](./note/linuxGroup)
+[WinodwsでX Serverを導入する](note/xserverOnWindows)
