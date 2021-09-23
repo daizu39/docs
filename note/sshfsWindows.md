@@ -67,7 +67,7 @@ WindowsにWSL2をインストールする
 
 ### Winodws
 
-File Explorerのアドレスバーに「\\wsl$」を入力し、dirmountにアクセスする。
+File Explorerのアドレスバーに「\\\\wsl$」を入力し、dirmountにアクセスする。
 
 ## 参考
 
