@@ -10,7 +10,7 @@
   - ssh server
     - sftpが利用可能
 
-File Exlplorerから「\\wsl$」にアクセスして、sshfsでマウントしているLinux上のディレクトリにアクセスする。
+File Exlplorerから「\\\\wsl$」にアクセスして、sshfsでマウントしているLinux上のディレクトリにアクセスする。
 
 ```text
 +-Windows--------------+  +-Linux----------------+
