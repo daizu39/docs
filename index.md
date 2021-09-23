@@ -1,4 +1,6 @@
 
+[WindowsでSSHFSを利用しLinuxとファイル共有](note/sshfsWindows)
+
 [Linuxにおけるグループの基本](note/linuxGroup)
 
 [GitHub Pages導入方法](note/introGithubPages)
