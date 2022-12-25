@@ -41,7 +41,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-### 1.2. GitHubにアクセスするためのssh設定をする。
+### 1.2. GitHubにアクセスするためのssh設定をする
 
 「~/.ssh/config」のファイルを以下に設定する。
 
@@ -56,17 +56,17 @@ Host github.com
 
 以下はおすすめ設定。
 
-```console
-$ git config --global user.name <コミットに利用するユーザ名>
-$ git config --global user.email <メールアドレス>
-$ git config --global core.autocrlf false
-$ git config --global core.quotepath false
-$ git config --global core.editor vim
-$ git config --global core.whitespace cr-at-eol
-$ git config --global init.defaultBranch master
+```bash
+git config --global user.name <コミットに利用するユーザ名>
+git config --global user.email <メールアドレス>
+git config --global core.autocrlf false
+git config --global core.quotepath false
+git config --global core.editor vim
+git config --global core.whitespace cr-at-eol
+git config --global init.defaultBranch master
 ```
 
-### 1.4. GitHubに公開鍵を設定する。
+### 1.4. GitHubに公開鍵を設定する
 
 GitHubにログインし、以下サイトにアクセスする。  
 
@@ -83,13 +83,13 @@ GitHubにログインし、以下サイトにアクセスする。
 
 ### 2.1. ローカルリポジトリ作成
 
-```console
-$ mkdir <リポジトリ名>
-$ cd <リポジトリ名>
-$ git init
-$ vim .gitignore
-$ git add -A
-$ git commit -m "Initial Commit"
+```bash
+mkdir <リポジトリ名>
+cd <リポジトリ名>
+git init
+vim .gitignore
+git add -A
+git commit -m "Initial Commit"
 ```
 
 ### 2.2. リモートリポジトリ作成
@@ -97,15 +97,16 @@ $ git commit -m "Initial Commit"
 ローカルリポジトリに移動していることを前提とする。
 以下のコマンドは、対話型である。適宜入力する。
 リモートリポジトリ(origin)は、後で設定するため設定しない。
-```console
-$ gh auth login
-$ gh repo create
+
+```bash
+gh auth login
+gh repo create
 ```
 
-### 2.4. コンテンツとして、ファイルを作成する。
+### 2.4. コンテンツとして、ファイルを作成する
 
-```console
-$ vim index.md
+```bash
+vim index.md
 ```
 
 「index.md」の内容は以下の通り。
@@ -114,12 +115,12 @@ $ vim index.md
 Hello. GitHub Pages.
 ```
 
-### 2.5. GitHubにコンテンツを追加する。
+### 2.5. GitHubにコンテンツを追加する
 
-```console
-$ git add -A
-$ git commit -m "Commit initial contents"
-$ git push --set-upstream origin master
+```bash
+git add -A
+git commit -m "Commit initial contents"
+git push --set-upstream origin master
 ```
 
 ## 3. サイト公開
